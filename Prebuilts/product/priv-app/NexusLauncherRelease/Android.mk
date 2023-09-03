@@ -18,33 +18,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
-ifeq ($(PIXEL_LAUNCHER_VARIANT),glance10)
-LOCAL_SRC_FILES := NexusLauncherRelease10.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance20)
-LOCAL_SRC_FILES := NexusLauncherRelease20.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance11)
-LOCAL_SRC_FILES := NexusLauncherRelease11.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance21)
-LOCAL_SRC_FILES := NexusLauncherRelease21.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance12)
-LOCAL_SRC_FILES := NexusLauncherRelease12.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance22)
-LOCAL_SRC_FILES := NexusLauncherRelease22.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod0)
-LOCAL_SRC_FILES := NexusLauncherRelease00.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod1)
-LOCAL_SRC_FILES := NexusLauncherRelease01.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod2)
-LOCAL_SRC_FILES := NexusLauncherRelease02.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),nomod3)
 LOCAL_SRC_FILES := NexusLauncherRelease03.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance13)
-LOCAL_SRC_FILES := NexusLauncherRelease13.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance23)
-LOCAL_SRC_FILES := NexusLauncherRelease23.apk
-else
-$(error Not set PIXEL_LAUNCHER_VARIANT, read more in vendor/PixelLauncherExtended/codename.txt)
-endif
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
