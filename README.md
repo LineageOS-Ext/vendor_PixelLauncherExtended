@@ -4,6 +4,9 @@
 
 **Pixel Launcher Extended** is a Magisk module by **TeamFiles** with many cool features compared to original Pixel Launcher by Google.
 
+## Full Version with 1.7 Changes for Custom Roms ##
+- [Here](https://github.com/Mudit200408/vendor_PixelLauncherExtended)
+
 ### Features
 - Extra themed icons. Total of 1250+ icons.  
 - More grids options, total of 14 grids. You can select these extra grids by going to **Wallpaper & style** > **App grid**. These are available for **Phones** only. Not available for **Tablets**.
