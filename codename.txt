@@ -1,12 +1,15 @@
 Material you Greetings
 
+• Example Of Style 0
+Line 1 - Default Pixel At A Glance
+
+-> Use the flag
+PIXEL_LAUNCHER_VARIANT := glance03
+
 • Example Of Style 1
 Line 1 - Material You Greetings
 Line 2 - Day & Date
 Line 3 - Weather Information
-
--> Use the flag
-PIXEL_LAUNCHER_VARIANT := glance13
 
 • Example Of Style 2
 Line 1 - Material You Greetings, Day & Date
@@ -15,4 +18,4 @@ Line 2 - Weather Information
 -> Use the flag
 PIXEL_LAUNCHER_VARIANT := glance23
 
-Note: If the flags are not given rom will use PLE with default "At A Glance" widget (Pixel one)
+Note: If the flags are not given rom will use PLE with Style 1

@@ -18,13 +18,13 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
-ifeq ($(PIXEL_LAUNCHER_VARIANT),glance13)
-LOCAL_SRC_FILES := NexusLauncherRelease13.apk
+ifeq ($(PIXEL_LAUNCHER_VARIANT),glance03)
+LOCAL_SRC_FILES := NexusLauncherRelease03.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),glance23)
 LOCAL_SRC_FILES := NexusLauncherRelease23.apk
 else
 $(info PIXEL_LAUNCHER_VARIANT not set so using the package with default "At a Glance")
-LOCAL_SRC_FILES := NexusLauncherRelease03.apk
+LOCAL_SRC_FILES := NexusLauncherRelease13.apk
 endif
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_CLASS := APPS
